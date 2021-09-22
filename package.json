@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w --output-style expanded"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
