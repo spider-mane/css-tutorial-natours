@@ -19,3 +19,7 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
+@mixin input-border-bottom($color) {
+  border-bottom: 0.3rem solid $color;
+}
