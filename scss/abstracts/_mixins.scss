@@ -5,3 +5,17 @@
     clear: both;
   }
 }
+
+// TYPOGRAPHY
+@mixin gradient-text {
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary,
+    $color-primary-dark
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
