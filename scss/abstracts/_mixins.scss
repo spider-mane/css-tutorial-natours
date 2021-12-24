@@ -23,3 +23,10 @@
 @mixin input-border-bottom($color) {
   border-bottom: 0.3rem solid $color;
 }
+
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
